@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		52E1A7722A6852E700FF68CC /* ParkingLotInterviewTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7712A6852E700FF68CC /* ParkingLotInterviewTestApp.swift */; };
-		52E1A7742A6852E700FF68CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7732A6852E700FF68CC /* ContentView.swift */; };
+		52E1A7742A6852E700FF68CC /* ParkingLotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7732A6852E700FF68CC /* ParkingLotView.swift */; };
 		52E1A7762A6852E800FF68CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E1A7752A6852E800FF68CC /* Assets.xcassets */; };
 		52E1A77A2A6852E800FF68CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E1A7792A6852E800FF68CC /* Preview Assets.xcassets */; };
+		52E1A7822A68530600FF68CC /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7812A68530600FF68CC /* ParkingLot.swift */; };
+		52E1A7842A68534900FF68CC /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7832A68534900FF68CC /* Space.swift */; };
+		52E1A7862A68534E00FF68CC /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7852A68534E00FF68CC /* Vehicle.swift */; };
+		52E1A7882A6861A000FF68CC /* ParkingLotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7872A6861A000FF68CC /* ParkingLotState.swift */; };
+		52E1A78A2A6867E800FF68CC /* SpaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A7892A6867E800FF68CC /* SpaceListView.swift */; };
+		52E1A78C2A686B7000FF68CC /* CurrentParkedCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1A78B2A686B7000FF68CC /* CurrentParkedCarsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52E1A76E2A6852E700FF68CC /* ParkingLotInterviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingLotInterviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1A7712A6852E700FF68CC /* ParkingLotInterviewTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotInterviewTestApp.swift; sourceTree = "<group>"; };
-		52E1A7732A6852E700FF68CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52E1A7732A6852E700FF68CC /* ParkingLotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotView.swift; sourceTree = "<group>"; };
 		52E1A7752A6852E800FF68CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E1A7772A6852E800FF68CC /* ParkingLotInterviewTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParkingLotInterviewTest.entitlements; sourceTree = "<group>"; };
 		52E1A7792A6852E800FF68CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52E1A7812A68530600FF68CC /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		52E1A7832A68534900FF68CC /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		52E1A7852A68534E00FF68CC /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		52E1A7872A6861A000FF68CC /* ParkingLotState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotState.swift; sourceTree = "<group>"; };
+		52E1A7892A6867E800FF68CC /* SpaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceListView.swift; sourceTree = "<group>"; };
+		52E1A78B2A686B7000FF68CC /* CurrentParkedCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentParkedCarsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,11 @@
 		52E1A7702A6852E700FF68CC /* ParkingLotInterviewTest */ = {
 			isa = PBXGroup;
 			children = (
+				52E1A7802A6852FB00FF68CC /* ParkingLot */,
 				52E1A7712A6852E700FF68CC /* ParkingLotInterviewTestApp.swift */,
-				52E1A7732A6852E700FF68CC /* ContentView.swift */,
+				52E1A7732A6852E700FF68CC /* ParkingLotView.swift */,
+				52E1A7892A6867E800FF68CC /* SpaceListView.swift */,
+				52E1A78B2A686B7000FF68CC /* CurrentParkedCarsView.swift */,
 				52E1A7752A6852E800FF68CC /* Assets.xcassets */,
 				52E1A7772A6852E800FF68CC /* ParkingLotInterviewTest.entitlements */,
 				52E1A7782A6852E800FF68CC /* Preview Content */,
@@ -67,6 +82,17 @@
 				52E1A7792A6852E800FF68CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52E1A7802A6852FB00FF68CC /* ParkingLot */ = {
+			isa = PBXGroup;
+			children = (
+				52E1A7812A68530600FF68CC /* ParkingLot.swift */,
+				52E1A7832A68534900FF68CC /* Space.swift */,
+				52E1A7852A68534E00FF68CC /* Vehicle.swift */,
+				52E1A7872A6861A000FF68CC /* ParkingLotState.swift */,
+			);
+			path = ParkingLot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E1A7742A6852E700FF68CC /* ContentView.swift in Sources */,
+				52E1A78A2A6867E800FF68CC /* SpaceListView.swift in Sources */,
+				52E1A7822A68530600FF68CC /* ParkingLot.swift in Sources */,
+				52E1A7742A6852E700FF68CC /* ParkingLotView.swift in Sources */,
+				52E1A7842A68534900FF68CC /* Space.swift in Sources */,
+				52E1A78C2A686B7000FF68CC /* CurrentParkedCarsView.swift in Sources */,
+				52E1A7862A68534E00FF68CC /* Vehicle.swift in Sources */,
+				52E1A7882A6861A000FF68CC /* ParkingLotState.swift in Sources */,
 				52E1A7722A6852E700FF68CC /* ParkingLotInterviewTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

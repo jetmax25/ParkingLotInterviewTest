@@ -11,7 +11,7 @@ import SwiftUI
 struct ParkingLotInterviewTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ParkingLotView()
         }
     }
 }
